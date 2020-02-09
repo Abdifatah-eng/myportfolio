@@ -11,6 +11,92 @@
   background-size: cover;
   font-family: sans-serif;
 }
+.navbar {
+   width: 200%;
+   height: 100%;
+}
+ ul {
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   display: inline;
+   margin: 0px;
+   padding: 35px;
+   list-style: none;
+   position: relative;
+     left: 450px;
+     top: 10px;
+ }
+ ul li {
+   font: bold 12px/18px sans-serif;
+   display: inline;
+   background:  #6699cc;
+   padding:35px;
+     position: relative;
+    top: 25px;
+ }
+ ul li a {
+   text-decoration: none;
+   padding: 10px 10px;
+   color: white;
+   font-size: 18px;
+ }
+ ul li:hover {
+   background: #4dd0e1;
+   color: white;
+ }
+ ul li ul {
+   padding: 0px;
+   position: absolute;
+   top: 50px;
+   left: 0px;
+   width: 200px;
+   display: none;
+   visibility: hidden;
+ }
+ ul li ul li {
+   background: #00ac1;
+   display: block;
+ }
+ ul li ul li:hover {
+   background: #4dd0e1;
+ }
+ ul li:hover ul{
+   display: block;
+   opacity: 1;
+   visibility: visible;
+ }
+ ul ul ul li{
+   display: none;
+ }
+ ul ul ul:hover li {
+   display:block;
+ }
+ ul ul ul {
+   left: 170px;
+   top: -25px;
+ }
+ ul li ol {
+   padding: 0px;
+   position: absolute;
+   top: 50px;
+   left: 0px;
+   width: 250px;
+   display: none;
+   visibility: hidden;
+ }
+ ul li ol li {
+   background: #00ac1;
+   display: block;
+ }
+ ul li ol li:hover {
+   background: #4dd0e1;
+ }
+ ul li:hover ol{
+   display: block;
+   opacity: 1;
+   visibility: visible;
+ }
 .loginbox {
   position: absolute;
   top: 55%;
